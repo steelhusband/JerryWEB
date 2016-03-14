@@ -1,0 +1,32 @@
+﻿{
+  "introduction": "Fotbollstestet!",
+  "questions": [
+    {
+      "q1": "Vilket år debuterade Zlatan i landslaget?",
+      "a1": [ "1997", "2001", "2003", "2005" ],
+      "correct": 1
+    },
+    {
+      "q2": "Hur många SM-Guld har IFK Göteborg?",
+      "a2": [ "22", "16", "18", "28" ],
+      "correct": 2
+    },
+    {
+      "q3": "Vad heter är Damlandslagets nationalarena?",
+      "a3": [ "Råsunda", "Gamla Ullevi", "Nya Ullevi", "Kompisvallen" ],
+      "correct": 1
+    },
+    {
+      "q4": "I vilken allsvensk klubb spelade Tomas Brolin?",
+      "a4": [ "IFK Norrköping", "IFK Göteborg", "GAIS", "AIK" ],
+      "correct": 0
+    },
+    {
+      "q5": "När vann GAIS allsvenskan senast?",
+      "a5": [ "1895", "1966", "1992", "1954" ],
+      "correct": 3
+    }
+  ]
+}
+
+

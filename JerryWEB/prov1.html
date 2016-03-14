@@ -1,0 +1,167 @@
+﻿
+<!DOCTYPE html>
+<html lang="sv,en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/unsemantic-grid-responsive-tablet.css">
+    <link rel="stylesheet" type="text/css" href="css/unsemantic-grid-responsive-tablet-no-ie7.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="js\jquery.js"></script>
+    <script src="js\controller.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale =1,maximum-scale =1" />
+    <title>Fotbollstestet</title>
+</head>
+
+<body>
+    <div class="grid-container">
+        <header class="grid-100 tablet-grid-100 mobile-grid-100">
+            <img src="http://www.newton.se/content/themes/newton/assets/img/pngs/logo-footer.png" alt="Newton logga" />
+        </header>
+        <section class="grid-100 grid-parent">
+            <!-- "grid-parent" måste finns om man ska har flera olika grider under -->
+
+            <aside class="grid-30 tablet-grid-30 mobile-grid-100">
+                <img id="leftaside" src="http://ladda-upp.se/files/2016/b183869.jpg" alt="Vänstra sidbilden" />
+            </aside>
+
+            <article class="grid-70 tablet-grid-70 mobile-grid-100">
+                <div>Tid kvar: <span id="time"></span></div>
+                <div id="prov">
+                    <h1>Prov - Fotbollskunskap</h1>
+                    <fieldset id="q1">
+                        <legend>Fråga 1:</legend>
+                        <legend>Vilket år debuterade Zlatan i landslaget?</legend>
+                        <label>
+                            <input type="radio" name="q1" value="p" />1997
+                        </label>
+                        <br />
+                        <label>
+                            <input type="radio" name="q1" value="x" />2001
+                        </label>
+                        <br />
+                        <label>
+                            <input type="radio" name="q1" value="y" />2003
+                        </label>
+                        <br />
+                        <label>
+                            <input type="radio" name="q1" value="m" />2000
+                        </label>
+                        <br />
+                        <label>
+                            <input type="radio" name="q1" value="f" />1999
+                        </label>
+                    </fieldset>
+                    <fieldset id="q2">
+                        <legend>Fråga 2</legend>
+                        <legend>Hur många SM-Guld har IFK Göteborg?</legend>
+                        <label>
+                            <input type="radio" name="q2" value="r" />22
+                        </label>
+                        <br />
+                        <label>
+                            <input type="radio" name="q2" value="s" />25
+                        </label>
+                        <br />
+                        <label>
+                            <input type="radio" name="q2" value="l" />12
+                        </label>
+                        <br />
+                        <label>
+                            <input type="radio" name="q2" value="x" />18
+                        </label>
+                        <br />
+                        <label>
+                            <input type="radio" name="q2" value="r" />16
+                        </label>
+                    </fieldset>
+                    <fieldset id="q3">
+                        <legend>Fråga 3</legend>
+                        <legend>Vad heter är Damlandslagets nationalarena?</legend>
+                        <label>
+                            <input type="radio" name="q3" value="d" />Råsunda
+                        </label>
+                        <br />
+                        <label>
+                            <input type="radio" name="q3" value="g" />Kompisvallen
+                        </label>
+                        <br />
+                        <label>
+                            <input type="radio" name="q3" value="j" />Swedbank Stadion
+                        </label>
+                        <br />
+                        <label>
+                            <input type="radio" name="q3" value="e" />Nya Ullevi
+                        </label>
+                        <br />
+                        <label>
+                            <input type="radio" name="q3" value="x" />Gamla Ullevi
+                        </label>
+                    </fieldset>
+                    <fieldset id="q4">
+                        <legend>Fråga 4</legend>
+                        <legend>I vilken allsvensk klubb spelade Tomas Brolin?</legend>
+                        <label>
+                            <input type="radio" name="q4" value="p" />GAIS
+                        </label>
+                        <br />
+                        <label>
+                            <input type="radio" name="q4" value="x" />IFK Norrköping
+                        </label>
+                        <br />
+                        <label>
+                            <input type="radio" name="q4" value="y" />Djurgården
+                        </label>
+                        <br />
+                        <label>
+                            <input type="radio" name="q4" value="m" />IFK Göteborg
+                        </label>
+                        <br />
+                        <label>
+                            <input type="radio" name="q4" value="f" />AIK
+                        </label>
+                    </fieldset>
+                    <fieldset id="q5">
+                        <legend>Fråga 5</legend>
+                        <legend>När vann GAIS allsvenskan senast?</legend>
+                        <label>
+                            <input type="radio" name="q5" value="p" />1895
+                        </label>
+                        <br />
+                        <label>
+                            <input type="radio" name="q5" value="x" />1954
+                        </label>
+                        <br />
+                        <label>
+                            <input type="radio" name="q5" value="y" />2015
+                        </label>
+                        <br />
+                        <label>
+                            <input type="radio" name="q5" value="m" />1945
+                        </label>
+                        <br />
+                        <label>
+                            <input type="radio" name="q5" value="f" />1905
+                        </label>
+                    </fieldset>
+
+                </div>
+                <input type="button" id="btn" value="Skicka in" />
+                <input type="button" id="btnclr" value="Clear" />
+                <h2 id="result"></h2>
+            </article>
+        </section>
+
+        <section class="grid-100 tablet-grid-100 mobile-grid-100">
+            <footer>
+                <br />
+                <br />
+                <p>
+                    Copyright © <a href="">Cyber{geeks}</a>
+                </p>
+            </footer>
+        </section>
+    </div>
+</body>
+</html>
