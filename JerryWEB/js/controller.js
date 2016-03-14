@@ -17,6 +17,8 @@ function Login()
     { window.location = "anvandare.html"; done = 1; }
     if (username === "elev2@newton.se" && password === "1234")
     { window.location = "anvandare.html"; done = 1; }
+    if (username === "user" && password === "user")
+    { window.location = "anvandare.html"; done = 1; }
     if (done === 0)
     { alert("Felaktigt Lösenord!"); }
 }
@@ -84,12 +86,14 @@ $(document).ready(function ()
                 questionLock = true;
 
                 // Rätt svar
-                if (this.id == rnd) {
+                if (this.id == rnd)
+                {
                     $(stage).append('<div class="feedback1"></div>');
                     score++;
                 }
                 // Fel Svar	
-                if (this.id != rnd) {
+                if (this.id != rnd)
+                {
                     $(stage).append('<div class="feedback2"></div>');
                 }
                 setTimeout(function() { changeQuestion() }, 500);
@@ -106,14 +110,17 @@ $(document).ready(function ()
             stage2 = "#game1";
             stage = "#game2";
         }
+
         else
         {
              stage2 = "#game2"; stage = "#game1";
         }
+
         if (questionNumber < numberOfQuestions)
         {
             displayQuestion();
         }
+
         else
         {
             displayFinalSlide();  
@@ -134,9 +141,10 @@ $(document).ready(function ()
 
         // Plockar upp resultatet från local storage och skriver ut det.
         var storedResult = localStorage.getItem("userResult"); 
-        var result2 = JSON.parse(storedResult);
+        //var result2 = JSON.parse(storedResult);
 
-        alert(result2);
+        //Test så att man vet att rätt värde har laddats in
+        //alert(result2);
     }
 });
 
@@ -165,7 +173,8 @@ function startTimer(duration, display)
 function Exit()
 {
     var y = confirm("Provet är slut. Du skickas nu tillbaka till förgående sida!");
-    if (y) {
+    if (y)
+    {
         document.location.href = "anvandare.html";
     }
 }
@@ -173,8 +182,18 @@ function Exit()
 function stopTimer()
 {
     Exit();
-    
 }
+
+function myStopFunktion()
+{
+
+    var y = confirm("Är du säker på att du vill avsluta provet? I så fall skickas nu tillbaka till förgående sida!");
+    if (y)
+    {
+        document.location.href = "anvandare.html";
+    }
+}
+
 
 window.onload = function ()
 {
@@ -182,7 +201,3 @@ window.onload = function ()
     display = document.querySelector("#time");
     startTimer(countDown, display);
 }
-
-//var pcnt = (100 * right / (wrong + right)).toFixed(1);
-//alert("Rätt: " + right + "\nFel: " + wrong + "\nProcent: " + pcnt + "%");
-
