@@ -170,26 +170,22 @@ function startTimer(duration, display)
     }, 1000);
 }
 
-function Exit()
-{
-    var y = confirm("Provet är slut. Du skickas nu tillbaka till förgående sida!");
-    if (y)
-    {
-        document.location.href = "anvandare.html";
-    }
+function Exit() {
+
+    alert("Provet är slut. Du skickas nu tillbaka till förgående sida!");
+
+    document.location.href = "anvandare.html";
 }
 
-function stopTimer()
-{
+function stopTimer() {
     Exit();
+
 }
 
-function myStopFunktion()
-{
+function myStopFunktion() {
 
     var y = confirm("Är du säker på att du vill avsluta provet? I så fall skickas nu tillbaka till förgående sida!");
-    if (y)
-    {
+    if (y) {
         document.location.href = "anvandare.html";
     }
 }

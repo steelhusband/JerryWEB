@@ -10,52 +10,49 @@
     <script src="js\jquery.js"></script>
     <script src="js\controller.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale =1,maximum-scale =1" />
-    <title>Fotbollstestet</title>
+    <title>Fotbollstest</title>
 </head>
 
 <body>
     <div class="grid-container">
         <header class="grid-100 tablet-grid-100 mobile-grid-100">
-
             <img src="http://www.newton.se/content/themes/newton/assets/img/pngs/logo-footer.png" alt="Newton logga" />
-
         </header>
 
-        <header class="grid-100 tablet-grid-100 mobile-grid-100"></header>
-
+        <header class="grid-100 tablet-grid-100 mobile-grid-100">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Startsidan</a></li>
+                    <li><a href="login.html">Logga in</a></li>
+                </ul>
+            </nav>
+        </header>
 
         <section class="grid-100 tablet-grid-100 mobile-grid-100">
-
-            <h1>Välkommen Användare!</h1>
-
+            <h1>Välkommen Student!</h1>
         </section>
 
-        <section class="grid-100 grid-parent">
-            <!-- "grid-parent" måste finns om man ska har flera olika grider under -->
+        <section class="grid-100 tablet-grid-100 mobile-grid-100">
+            <h2 class="prov">Välj prov:</h2>
+            <a href="prov1.html" onclick="return confirm('När du klickar OK så har du 3 minuter på dig att slutföra provet.\n\nLycka till!')"><button id="btn_prov">Prov 1</button></a>
+            <a href="prov2.html" onclick="return confirm('När du klickar OK så har du 3 minuter på dig att slutföra provet.\n\nLycka till!')"><button id="btn_prov">Prov 2</button></a>
+        </section>
 
-            <aside class="grid-30 tablet-grid-30 mobile-grid-100">
-                <img id="leftaside" src="http://ladda-upp.se/files/2016/b183869.jpg" alt="Vänstra sidbilden" />
-            </aside>
+        <br />
+        <br />
 
-            <article class="grid-70 tablet-grid-70 mobile-grid-100">
-                <h2 class="prov">Välj prov:</h2>
-                <a href="prov1.html" onclick="return confirm('När du klickar OK så har du 3 minuter på dig att slutföra provet.\n\nLycka till!')"><button id="btn_prov">Prov 1</button></a>
-                <a href="prov2.html" onclick="return confirm('När du klickar OK så har du 3 minuter på dig att slutföra provet.\n\nLycka till!')"><button id="btn_prov">Prov 2</button></a>              
-            </article>
+        <section class="grid-100 tablet-grid-100 mobile-grid-100">
+            <img id="underImg" src="http://cse.gu.se/digitalAssets/1535/1535306_tenta-4.jpg" alt="Vänstra sidbilden" />
         </section>
 
         <section class="grid-100 tablet-grid-100 mobile-grid-100">
             <footer>
                 <br />
-                <br /> 
                 <p>
                     Copyright © <a href="">Cyber{geeks}</a>
                 </p>
             </footer>
         </section>
-
     </div>
-
 </body>
-
 </html>
