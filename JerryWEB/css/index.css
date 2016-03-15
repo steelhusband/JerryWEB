@@ -17,23 +17,9 @@ body {
     padding-bottom: 20px;
 }
 
-img#header {
-    text-align: center;
-}
-
 img#underImg {
     width: 595px;
     height: 350px;
-}
-
-img#prov {
-    padding-top: 50%;
-    width: 350px;
-    height: 350px;
-}
-
-div#center {
-    text-align: center;
 }
 
 nav {
@@ -71,20 +57,6 @@ nav a:hover, nav a:active, #nav .active a:link, #nav .active a:visited {
     text-align: left;
 }
 
-.rightans {
-    border: 3px solid #0f0;
-    background-color: #afa;
-}
-
-.wrongans {
-    border: 3px solid #f00;
-    background-color: #faa;
-}
-
-article#center {
-    text-align: center;
-}
-
 fieldset { 
     display: block;
     margin-left: 2px;
@@ -96,9 +68,6 @@ fieldset {
     border: 2px groove;
     text-align: left;
     
-}
-label {
-    display: inline;
 }
 
 #navContent{
@@ -173,16 +142,4 @@ height:30px;
 
 @media screen and (max-width:460px) {
 	.option{width:80%;margin:5%;}
-}
-
-#red {
-    color: red;
-}
-
-#orange {
-    color: orange;
-}
-
-#green {
-    color: green;
 }
