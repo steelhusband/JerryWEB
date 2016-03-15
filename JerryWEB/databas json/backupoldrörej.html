@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--[if IE 7]>    <html class="ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="en"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>Columns - Examples</title>
+        
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+        
+        <!-- Include *at least* the core style and default theme -->
+        <link href="css/prettify.css" rel="stylesheet">
+        <link href="css/hemisu-light.css" rel="stylesheet">
+
+        <link href="css/screen.css" rel="stylesheet" media="screen">
+
+        <link id="style" href="../css/classic.css" rel="stylesheet" media="screen">
+        
+        <style>
+            pre { 
+                margin-top: 10px;
+            }
+        </style>
+
+         <!-- Include required JS files -->
+        <script src="js/jquery.min.js"></script>
+        <script src="plugins/gotopage.js"></script>
+        <script src="plugins/ajaxpaging.js"></script>
+        <script src="js/jquery.columns.min.js"></script>
+        <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <h1>Examples of using Columns</h1>
+        </header>
+        <section>
+            <label>Change Theme:</label>
+            <select id="theme">
+                <option value="classic.css">Classic</option>
+                <option value="clean.css">Clean</option>
+            </select>  
+            
+            <h2>Example 2: Setting data from external source</h2>
+            <div id="example2"></div>
+            <pre class="prettyprint">
+                <code>
+  
+                </code>
+            </pre>
+        </section>
+       
+        <script>                               
+            //example 2 
+            $.ajax({
+                url:'dataS.json',
+                dataType: 'json', 
+                success: function(json) { 
+                    example2 = $('#example2').columns({
+                        data:json
+                    }); 
+                }
+            }); 
+
+            $('#theme').change(function() {
+                $('#style').attr('href', 'css/'+$(this).val());
+            });
+        </script>   
+        
+    </body>
+</html>
