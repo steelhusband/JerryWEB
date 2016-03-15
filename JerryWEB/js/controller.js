@@ -141,10 +141,10 @@ $(document).ready(function ()
 
         // Plockar upp resultatet från local storage och skriver ut det.
         var storedResult = localStorage.getItem("userResult"); 
-        //var result2 = JSON.parse(storedResult);
+        var result2 = JSON.parse(storedResult);
 
         //Test så att man vet att rätt värde har laddats in
-        //alert(result2);
+        alert(result2);
     }
 });
 
