@@ -193,7 +193,7 @@ function myStopFunktion() {
 
 window.onload = function ()
 {
-    var countDown = 60 * 0.1,
+    var countDown = 60 * 3,
     display = document.querySelector("#time");
     startTimer(countDown, display);
 }
