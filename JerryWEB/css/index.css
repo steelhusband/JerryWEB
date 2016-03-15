@@ -1,5 +1,5 @@
 ﻿
-<!--  -->
+/* Huvud inställningarna på hela webbsidan */
 body {
     background-color: gray;
     font-family: elephant;
@@ -7,32 +7,14 @@ body {
     text-align: center;
 }
 
-<!-- -->
-#fragor {
-    display: inline-block;
-    border-style: solid;
-    border-width: 3px;
-    width: 400px;
-    -moz-box-shadow: 0 0 5px #fff;
-    -webkit-box-shadow: 0 0 5px #fff;
-    box-shadow: 0 0 5px #fff;
-    padding-bottom: 20px;
-}
-
-<!-- -->
-img#underImg {
-    width: 595px;
-    height: 350px;
-}
-
-<!-- -->
+/* Inställninga på läkarna till dem olika sidorna */
 nav {
     text-align: center;
     margin: 40px 0 20px 0;
 }
 
 nav li {
-    display: inline; /* menyn alternativen bredvid varandra */
+    display: inline;
 }
 
 a {
@@ -56,13 +38,20 @@ nav a:hover, nav a:active, #nav .active a:link, #nav .active a:visited {
         background-color: #ee7202;
 }
 
-<!-- -->
+/* Inställingar på alla bilder */
+img#underImg {
+    width: 595px;
+    height: 350px;
+}
+
+
+/* Ställer in texten på index sidan */
 .maintxt {
     padding: 0 25% 0 25%;
     text-align: left;
 }
 
-<!-- -->
+/* Prov inställningar */
 fieldset { 
     display: block;
     margin-left: 2px;
@@ -72,8 +61,18 @@ fieldset {
     padding-left: 2px;
     padding-right: 2px;
     border: 2px groove;
-    text-align: left;
-    
+    text-align: left;  
+}
+
+#fragor {
+    display: inline-block;
+    border-style: solid;
+    border-width: 3px;
+    width: 400px;
+    -moz-box-shadow: 0 0 5px #fff;
+    -webkit-box-shadow: 0 0 5px #fff;
+    box-shadow: 0 0 5px #fff;
+    padding-bottom: 20px;
 }
 
 #navContent{
@@ -139,7 +138,7 @@ text-align: center;
 height:30px;
 }
 
-<!-- --> 
+/* Mobil inställningar */ 
 @media screen and (max-width:800px) {
 	#topbar{margin-left:1%;margin-right:1%;	width:96%;}
 	#navContent{margin:1%;	width:98%;}
