@@ -172,7 +172,7 @@ function startTimer(duration, display)
 function Exit()
 {
     alert("Provet är slut. Du skickas nu tillbaka till förgående sida!");
-    document.location.href = "anvandare.html";
+    document.location.href = "databas json/student1.html";
 }
 
 function stopTimer()
@@ -185,7 +185,7 @@ function myStopFunktion()
     var y = confirm("Är du säker på att du vill avsluta provet? I så fall skickas nu tillbaka till förgående sida!");
     if (y)
     {
-        document.location.href = "anvandare.html";
+        document.location.href = "databas json/student1.html";
     }
 }
 
