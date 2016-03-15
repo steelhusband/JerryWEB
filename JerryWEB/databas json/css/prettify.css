@@ -1,7 +1,46 @@
+/* Inställninga på läkarna till dem olika sidorna */
+nav {
+    text-align: right;
+    margin: 0 300px 0 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#nav {
+    font-size: 20px;
+    font-weight: bold;  
+}
+
+#nav a {
+    display: inline-block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+nav ul { 
+    margin: 0;
+    padding: 0;
+}
+
+nav a:hover, nav a:active, #nav .active a:link, #nav .active a:visited {
+    background-color: #ee7202;
+}
+
 #headImg {
     text-align: center;
     padding: 8px 0 0 10px;
-} 
+}
+
+h1 {
+    text-align: center;
+}
+ 
 
 .pln {
     color: #000;

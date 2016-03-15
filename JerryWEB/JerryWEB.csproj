@@ -49,7 +49,7 @@
     <Content Include="databas json\css\docs.css" />
     <Content Include="databas json\css\hemisu-light.css" />
     <Content Include="databas json\css\prettify.css" />
-    <Content Include="databas json\css\screen.css" />
+    <Content Include="databas json\plugins\screen.css" />
     <Content Include="databas json\images\arrow-left.png" />
     <Content Include="databas json\images\arrow-right.png" />
     <Content Include="databas json\images\search.png" />
