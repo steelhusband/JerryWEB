@@ -61,6 +61,7 @@
     <Content Include="databas json\plugins\ajaxpaging.js" />
     <Content Include="databas json\plugins\gotopage.js" />
     <Content Include="databas json\student1.html" />
+    <Content Include="js\result.js" />
     <Content Include="old\admintor.html" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
