@@ -43,6 +43,23 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="databas json\backupoldrörej.html" />
+    <Content Include="databas json\css\classic.css" />
+    <Content Include="databas json\css\clean.css" />
+    <Content Include="databas json\css\docs.css" />
+    <Content Include="databas json\css\hemisu-light.css" />
+    <Content Include="databas json\css\prettify.css" />
+    <Content Include="databas json\css\screen.css" />
+    <Content Include="databas json\images\arrow-left.png" />
+    <Content Include="databas json\images\arrow-right.png" />
+    <Content Include="databas json\images\search.png" />
+    <Content Include="databas json\js\jquery.columns.min.js" />
+    <Content Include="databas json\js\jquery.min.js" />
+    <Content Include="databas json\js\mustache.min.js" />
+    <Content Include="databas json\lärare1.html" />
+    <Content Include="databas json\plugins\ajaxpaging.js" />
+    <Content Include="databas json\plugins\gotopage.js" />
+    <Content Include="databas json\student1.html" />
     <Content Include="old\admintor.html" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -79,6 +96,9 @@
     <Fakes Include="Fakes\System.Workflow.ComponentModel.fakes" />
     <Fakes Include="Fakes\System.Workflow.Activities.fakes" />
     <Fakes Include="Fakes\System.Windows.Presentation.fakes" />
+    <Content Include="databas json\columns.jquery.json" />
+    <Content Include="databas json\dataS.json" />
+    <Content Include="databas json\dataT.json" />
     <None Include="Properties\PublishProfiles\AOMWebb.pubxml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
