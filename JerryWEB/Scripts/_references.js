@@ -2,6 +2,7 @@
 /// <reference path="../databas json/js/jquery.columns.min.js" />
 /// <reference path="../databas json/js/jquery.min.js" />
 /// <reference path="../databas json/js/mustache.min.js" />
+/// <reference path="../databas json/js/tabellajax.js" />
 /// <reference path="../databas json/plugins/ajaxpaging.js" />
 /// <reference path="../databas json/plugins/gotopage.js" />
 /// <reference path="../js/controller.js" />
