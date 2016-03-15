@@ -144,13 +144,6 @@ $(document).ready(function ()
         // Sparar ner resultatet + betyget i local storage med JSon.
         var result = ["Antal Rätt:" + " " + score + ", " + "Betyg: " + "" + grade()];
         localStorage.setItem("userResult", JSON.stringify(result));
-
-        // Plockar upp resultatet från local storage och skriver ut det.
-        var storedResult = localStorage.getItem("userResult"); 
-        var result2 = JSON.parse(storedResult);
-
-        //Test så att man vet att rätt värde har laddats in
-        alert(result2);
     }
 });
 

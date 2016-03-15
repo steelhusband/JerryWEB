@@ -6,6 +6,7 @@
 /// <reference path="../databas json/plugins/gotopage.js" />
 /// <reference path="../js/controller.js" />
 /// <reference path="../js/jquery.js" />
+/// <reference path="../js/result.js" />
 /// <reference path="../old/localdata.js" />
 /// <reference path="../old/prov.js" />
 /// <reference path="bootstrap.js" />
