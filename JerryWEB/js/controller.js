@@ -112,22 +112,28 @@ $(document).ready(function ()
         }
 
         else
-        {
-             stage2 = "#game2"; stage = "#game1";
-        }
+        { stage2 = "#game2"; stage = "#game1"; }
 
         if (questionNumber < numberOfQuestions)
-        {
-            displayQuestion();
-        }
+        { displayQuestion(); }
 
         else
-        {
-            displayFinalSlide();  
-        }
+        { displayFinalSlide(); }
 
         $(stage2).animate({ "right": "+=800px" }, "slow", function () { $(stage2).css("right", "-800px"); $(stage2).empty(); });
         $(stage).animate({ "right": "+=800px" }, "slow", function () { questionLock = false; });
+    }
+
+    function grade()
+    {
+        var g = ("G");
+        var ig = ("IG");
+
+            if (score >= 12)
+            { return g; }
+
+            else
+            { return ig; }
     }
 
     function displayFinalSlide()
@@ -135,8 +141,8 @@ $(document).ready(function ()
         var pcnt = (100 * score / (numberOfQuestions).toFixed(1));
         alert("Provet är slut!\nAntal frågor: " + numberOfQuestions + "\nAntal Rätt: " + score + "\nProcent: " + pcnt + "%");
 
-        // Sparar ner resultatet i local storage med JSon.
-        var result = [score];
+        // Sparar ner resultatet + betyget i local storage med JSon.
+        var result = ["Antal Rätt:" + " " + score + ", " + "Betyg: " + "" + grade()];
         localStorage.setItem("userResult", JSON.stringify(result));
 
         // Plockar upp resultatet från local storage och skriver ut det.
@@ -170,30 +176,29 @@ function startTimer(duration, display)
     }, 1000);
 }
 
-function Exit() {
-
+function Exit()
+{
     alert("Provet är slut. Du skickas nu tillbaka till förgående sida!");
-
     document.location.href = "anvandare.html";
 }
 
-function stopTimer() {
+function stopTimer()
+{
     Exit();
-
 }
 
-function myStopFunktion() {
-
+function myStopFunktion()
+{
     var y = confirm("Är du säker på att du vill avsluta provet? I så fall skickas nu tillbaka till förgående sida!");
-    if (y) {
+    if (y)
+    {
         document.location.href = "anvandare.html";
     }
 }
 
-
 window.onload = function ()
 {
-    var countDown = 60 * 3,
+    var countDown = 60 * 3.0,
     display = document.querySelector("#time");
     startTimer(countDown, display);
 }
