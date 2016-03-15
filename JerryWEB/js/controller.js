@@ -12,13 +12,13 @@ function Login()
     if (username === "admin" && password === "admin")
     { window.location = "admintor.html"; done = 1; }
     if (username === "larare" && password === "larare")
-    { window.location = "larare.html"; done = 1; }
+    { window.location = "databas json/lärare1.html"; done = 1; }
     if (username === "elev1@newton.se" && password === "1234")
-    { window.location = "anvandare.html"; done = 1; }
+    { window.location = "databas json/student1.html"; done = 1; }
     if (username === "elev2@newton.se" && password === "1234")
-    { window.location = "anvandare.html"; done = 1; }
+    { window.location = "databas json/student1.html"; done = 1; }
     if (username === "user" && password === "user")
-    { window.location = "anvandare.html"; done = 1; }
+    { window.location = "databas json/student1.html"; done = 1; }
     if (done === 0)
     { alert("Felaktigt Lösenord!"); }
 }
