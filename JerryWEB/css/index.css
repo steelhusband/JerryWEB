@@ -21,8 +21,8 @@ img#header {
     text-align: center;
 }
 
-img#leftaside {
-    width: 350px;
+img#underImg {
+    width: 595px;
     height: 350px;
 }
 
@@ -34,11 +34,6 @@ img#prov {
 
 div#center {
     text-align: center;
-}
-
-footer img {
-    width: 500px;
-    height: 200px;
 }
 
 nav {
@@ -72,6 +67,7 @@ nav a:hover, nav a:active, #nav .active a:link, #nav .active a:visited {
 }
 
 .maintxt {
+    padding: 0 25% 0 25%;
     text-align: left;
 }
 
@@ -83,6 +79,10 @@ nav a:hover, nav a:active, #nav .active a:link, #nav .active a:visited {
 .wrongans {
     border: 3px solid #f00;
     background-color: #faa;
+}
+
+article#center {
+    text-align: center;
 }
 
 fieldset { 
@@ -116,7 +116,7 @@ width:800px;
 height:400px;
 right:0px;
 position:absolute;
-text-align: left;
+text-align: center;
 }
 
 #game2{
@@ -155,10 +155,9 @@ margin:auto;
 margin-top:50px;
 color:#FFF;
 font-size:36px;
-font-family:Arial, Helvetica, sans-serif;
 width:800px;
 border-bottom:solid white 1px;
-text-align: left;
+text-align: center;
 }
  
 .spacer{

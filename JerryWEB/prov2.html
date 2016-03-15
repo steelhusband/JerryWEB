@@ -19,25 +19,17 @@
             <img id="header" src="http://www.newton.se/content/themes/newton/assets/img/pngs/logo-footer.png" alt="Newton logga" />
         </header>
 
-        <section class="grid-100 grid-parent">
-            <!-- "grid-parent" måste finns om man ska har flera olika grider under -->
-
-            <aside class="grid-30 tablet-grid-30 mobile-grid-100">
-                <img id="prov" src="http://www.readinghorizons.com/Media/Default/BlogPost/blog-roll/24489483_hiweb.jpg" alt="Vänstra sidbilden" />
-            </aside>
-
-            <article class="grid-70 tablet-grid-70 mobile-grid-100">
-                <div>Tid kvar: <span id="time"></span></div>
-                <input type="button" id="btn" value="Avbryt" />
+        <section class="grid-100 tablet-grid-100 mobile-grid-100">
+            <article id="center">
+                <p>Tid kvar: <span id="time"></span></p>
+                <input type="button" onclick="myStopFunktion()" value="Avbryt" />
                 <h2 id="result"></h2>
-                <div id="topbar">Fotbollstest</div>
+                <p id="topbar">Fotbollstest</p>
                 <div class="spacer"></div>
                 <div id="navContent">
                     <div id="game1"></div>
                     <div id="game2"></div>
                 </div>
-
-
                 <input type="button" onclick="myStopFunktion()" value="Avbryt" />
                 <h2 id="result"></h2>
             </article>
@@ -55,3 +47,4 @@
     </div>
 </body>
 </html>
+
