@@ -56,8 +56,10 @@
     <Content Include="databas json\js\jquery.columns.min.js" />
     <Content Include="databas json\js\jquery.min.js" />
     <Content Include="databas json\js\mustache.min.js" />
-    <Content Include="databas json\js\tabellajax.js" />
-    <Content Include="databas json\lärare1.html" />
+    <Content Include="databas json\js\result.js" />
+    <Content Include="databas json\js\tabellajaxS.js" />
+    <Content Include="databas json\js\tabellajaxT.js" />
+    <Content Include="databas json\larare1.html" />
     <Content Include="databas json\plugins\ajaxpaging.js" />
     <Content Include="databas json\plugins\gotopage.js" />
     <Content Include="databas json\student1.html" />
