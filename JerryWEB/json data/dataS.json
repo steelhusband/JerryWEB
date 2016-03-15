@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "Kurs": "OOP1",
+    "Betyg": "IG",
+    "Resultat": 10,
+    "Poäng för Godkänd": 12,
+    "Poäng för Väl godkänd": 16,
+    "Maxpoäng": 20,
+    "url": "http://www.quizwise.com/",
+    "Tentamen Datum": 20160313,
+    "Omtentamen Datum": 20160413
+    },
+    {
+    "id": 3,
+    "Kurs": "OOP2",
+    "Betyg": "G",
+    "Resultat": 22,
+    "Poäng för Godkänd": 18,
+    "Poäng för Väl godkänd": 23,
+    "Maxpoäng": 30,
+    "url": "http://www.quizwise.com/",
+    "Tentamen Datum": 20160313,
+    "Omtentamen Datum": 20160413
+    },
+  {
+    "id": 4,
+    "Kurs": "OOP3",
+    "Betyg": "G",
+    "Resultat": 29,
+    "Poäng för Godkänd": 26,
+    "Poäng för Väl godkänd": 32,
+    "Maxpoäng": 30,
+    "url": "http://www.quizwise.com/",
+    "Tentamen Datum": 20160313,
+    "Omtentamen Datum": 20160413
+  
+  },
+  {
+    "id": 5,
+    "Kurs": "OOP4",
+    "Betyg": "VG",
+    "Resultat": 43,
+    "Poäng för Godkänd": 32,
+    "Poäng för Väl godkänd": 41,
+    "Maxpoäng": 50,
+    "url": "http://www.quizwise.com/",
+    "Tentamen Datum": 20160313,
+    "Omtentamen Datum": 20160413
+    } 
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "Kurs": "OOP1",
+    "Elev": "Jenny Oskarsson",
+    "Betyg": "IG",
+    "Resultat": 10,
+    "Poäng för Godkänd": 12,
+    "Poäng för Väl godkänd": 16,
+    "Maxpoäng": 20,
+    "Datum": 20160313
+  
+  },
+  {
+    "id": 2,
+    "Kurs": "OOP1",
+    "Elev": "Oskar Oskarsson",
+    "Betyg": "G",
+    "Resultat": 14,
+    "Poäng för Godkänd": 12,
+    "Poäng för Väl godkänd": 16,
+    "Maxpoäng": 20,
+    "Datum": 20160328
+  
+  },
+  {
+    "id": 3,
+    "Kurs": "OOP2",
+    "Elev": "Linda lindarvsson",
+    "Betyg": "G",
+    "Resultat": 22,
+    "Poäng för Godkänd": 18,
+    "Poäng för Väl godkänd": 23,
+    "Maxpoäng": 30,
+    "Datum": 20160412
+  
+  },
+  {
+    "id": 4,
+    "Kurs": "OOP3",
+    "Elev": "Robert Gunnarsson",
+    "Betyg": "G",
+    "Resultat": 29,
+    "Poäng för Godkänd": 26,
+    "Poäng för Väl godkänd": 32,
+    "Maxpoäng": 40,
+    "Datum": 20160419
+  
+  },
+  {
+    "id": 5,
+    "Kurs": "OOP4",
+    "Elev": "Lena Andersson",
+    "Betyg": "VG",
+    "Resultat": 43,
+    "Poäng för Godkänd": 32,
+    "Poäng för Väl godkänd": 41,
+    "Maxpoäng": 50,
+    "Datum": 20160510
+  
+  },
+  {
+    "id": 6,
+    "Kurs": "OOP3",
+    "Elev": "David Danielsson",
+    "Betyg": "IG",
+    "Resultat": 19,
+    "Poäng för Godkänd": 26,
+    "Poäng för Väl godkänd": 32,
+    "Maxpoäng": 40,
+    "Datum": 20160605
+  
+  },
+  {
+    "id": 7,
+    "Kurs": "OOP3",
+    "Elev": "Herbert Jansson",
+    "Betyg": "VG",
+    "Resultat": 40,
+    "Poäng för Godkänd": 26,
+    "Poäng för Väl godkänd": 36,
+    "Maxpoäng": 40,
+    "Datum": 20160128
+  
+  },
+   {
+    "id": 8,
+    "Kurs": "OOP4",
+    "Elev": "Susanne Emerson",
+    "Betyg": "VG",
+    "Resultat": 48,
+    "Poäng för Godkänd": 32,
+    "Poäng för Väl godkänd": 41,
+    "Maxpoäng": 50,
+    "Datum": 20160213
+  
+  },
+   {
+    "id": 9,
+    "Kurs": "OOP4",
+    "Elev": "Erik Nilsson",
+    "Betyg": "VG",
+    "Resultat": 38,
+    "Poäng för Godkänd": 32,
+    "Poäng för Väl godkänd": 41,
+    "Maxpoäng": 50,
+    "Datum": 20160303
+  
+  },
+  {
+    "id": 10,
+    "Kurs": "OOP2",
+    "Elev": "Jenny Jansson",
+    "Betyg": "IG",
+    "Resultat": 17,
+    "Poäng för Godkänd": 18,
+    "Poäng för Väl godkänd": 23,
+    "Maxpoäng": 30,
+    "Datum": 20160413
+   }
+   
+]
