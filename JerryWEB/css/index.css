@@ -116,7 +116,6 @@ width:800px;
 height:400px;
 right:0px;
 position:absolute;
-text-align: center;
 }
 
 #game2{
@@ -132,7 +131,8 @@ font-size:27px;
 color:#FFF;
 }
 
-.option{width:400px;
+.option{
+width:400px;
 height:30px;
 margin:15px;
 font-size:18px;

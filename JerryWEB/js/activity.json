@@ -1,124 +1,124 @@
 ﻿{"prov":[
   
 	{
-	"question":"Vilket år debuterade Zlatan i landslaget?",
+	"question":"Vilket år debuterade Zlatan i landslaget? (Fråga 1 av 20)",
 	"option1":"2001",
 	"option2":"1999",
 	"option3":"2003"
 	},
-	{
-	"question":"Hur många SM-Guld har IFK Göteborg?",
-	"option1":"18",
-	"option2":"12",
-	"option3":"22"
-	},
-	{
-	"question":"Vad heter är Damlandslagets nationalarena?",
-	"option1":"Gamla Ullevi",
-	"option2":"Nya Ullevi",
-	"option3":"Kompisvallen"
-	},
-    {
-	"question":"I vilken allsvensk klubb spelade Tomas Brolin?",
-	"option1":"IFK Norrköping",
-	"option2":"IFK Göteborg",
-	"option3":"GAIS"
-	},
-    {
-	"question":"När vann GAIS allsvenskan senast?",
-	"option1":"1954",
-	"option2":"1994",
-	"option3":"1894"
-	},
-    {
-	"question":"Vilket lag har Zlatan INTE spelat för?",
-	"option1":"Celtic",
-	"option2":"F.C. Barcelona",
-	"option3":"Ajax"
-	},
-    {
-	"question":"Vad heter alla i förnamn i Göteborg?",
-	"option1":"Glenn",
-	"option2":"Kalle",
-	"option3":"Zlatan"
-	},
-    {
-	"question":"Vad kallas Jesper Blomquist i Göteborg?",
-	"option1":"Judas",
-	"option2":"Jeppe",
-	"option3":"Johnny Bråttom"
-	},
-    {
-	"question":"Vad kallas IFK Göteborgs supportrar?",
-	"option1":"Änglarna",
-	"option2":"Wisemen",
-	"option3":"Jesuiterna"
-	},
-    {
-	"question":"Vilket lag spelar Harry Kane för?",
-	"option1":"Tottenham",
-	"option2":"Manchester United",
-	"option3":"Arsenal"
-	},
-    {
-	"question":"Vilket lag kommer INTE från London?",
-	"option1":"Stoke",
-	"option2":"Crystal Palace",
-	"option3":"Arsenal"
-	},
-    {
-	"question":"Vad heter Mancheter Uniteds fotbollsarena?",
-	"option1":"Old Trafford",
-	"option2":"White Hart Lane",
-	"option3":"Stamford Bridge"
-	},
-    {
-	"question":"Vilken Italiensk fotbollsklubb kallas för Den Gamla Damen?",
-	"option1":"Juventus",
-	"option2":"Inter FC",
-	"option3":"AC Milan"
-	},
-    {
-	"question":"I vilket land spelar River Plate?",
-	"option1":"Argentina",
-	"option2":"Uruguay",
-	"option3":"Chile"
-	},
-    {
-	"question":"För vilken Engelsk klubb spelade Glenn Hysen?",
-	"option1":"Liverpool",
-	"option2":"Hull",
-	"option3":"Wimbledon"
-	},
-    {
-	"question":"Vilken fd fotbollsspelare är idag skådespelare?",
-	"option1":"Vinnie Jones",
-	"option2":"Glenn Strömberg",
-	"option3":"Eric Cantona"
-	},
-    {
-	"question":"Vad heter den Engelska andraligan?",
-	"option1":"Championship",
-	"option2":"La Liga",
-	"option3":"Premier League"
-	},
-    {
-	"question":"Vilket land vann fotbolls EM 1992",
-	"option1":"Danmark",
-	"option2":"Tyskland",
-	"option3":"Sverige"
-	},
-    {
-	"question":"Vilket land toppar FIFAs landslagranking?",
-	"option1":"Belgien",
-	"option2":"Brasilien",
-	"option3":"Spanien"
-	},
-    {
-	"question":"Vilket land vann fotbolls Vm för damer 2015?",
-	"option1":"USA",
-	"option2":"Japan",
-	"option3":"Tyskland"
-	}
+  {
+    "question": "Hur många SM-Guld har IFK Göteborg? (Fråga 2 av 20)",
+    "option1": "18",
+    "option2": "12",
+    "option3": "22"
+  },
+  {
+    "question": "Vad heter är Damlandslagets nationalarena? (Fråga 3 av 20)",
+    "option1": "Gamla Ullevi",
+    "option2": "Nya Ullevi",
+    "option3": "Kompisvallen"
+  },
+  {
+    "question": "I vilken allsvensk klubb spelade Tomas Brolin? (Fråga 4 av 20)",
+    "option1": "IFK Norrköping",
+    "option2": "IFK Göteborg",
+    "option3": "GAIS"
+  },
+  {
+    "question": "När vann GAIS allsvenskan senast (Fråga 5 av 20)?",
+    "option1": "1954",
+    "option2": "1994",
+    "option3": "1894"
+  },
+  {
+    "question": "Vilket lag har Zlatan INTE spelat för? (Fråga 6 av 20)",
+    "option1": "Celtic",
+    "option2": "F.C. Barcelona",
+    "option3": "Ajax"
+  },
+  {
+    "question": "Vad heter alla i förnamn i Göteborg? (Fråga 7 av 20)",
+    "option1": "Glenn",
+    "option2": "Kalle",
+    "option3": "Zlatan"
+  },
+  {
+    "question": "Vad kallas Jesper Blomquist i Göteborg? (Fråga 8 av 20)",
+    "option1": "Judas",
+    "option2": "Jeppe",
+    "option3": "Johnny Bråttom"
+  },
+  {
+    "question": "Vad kallas IFK Göteborgs supportrar? (Fråga 9 av 20)",
+    "option1": "Änglarna",
+    "option2": "Wisemen",
+    "option3": "Jesuiterna"
+  },
+  {
+    "question": "Vilket lag spelar Harry Kane för? (Fråga 10 av 20)",
+    "option1": "Tottenham",
+    "option2": "Manchester United",
+    "option3": "Arsenal"
+  },
+  {
+    "question": "Vilket lag kommer INTE från London? (Fråga 11 av 20)",
+    "option1": "Stoke",
+    "option2": "Crystal Palace",
+    "option3": "Arsenal"
+  },
+  {
+    "question": "Vad heter Mancheter Uniteds fotbollsarena? (Fråga 12 av 20)",
+    "option1": "Old Trafford",
+    "option2": "White Hart Lane",
+    "option3": "Stamford Bridge"
+  },
+  {
+    "question": "Vilken Italiensk fotbollsklubb kallas för Den Gamla Damen? (Fråga 13 av 20)",
+    "option1": "Juventus",
+    "option2": "Inter FC",
+    "option3": "AC Milan"
+  },
+  {
+    "question": "I vilket land spelar River Plate? (Fråga 14 av 20)",
+    "option1": "Argentina",
+    "option2": "Uruguay",
+    "option3": "Chile"
+  },
+  {
+    "question": "För vilken Engelsk klubb spelade Glenn Hysen? (Fråga 15 av 20)",
+    "option1": "Liverpool",
+    "option2": "Hull",
+    "option3": "Wimbledon"
+  },
+  {
+    "question": "Vilken fd fotbollsspelare är idag skådespelare? (Fråga 16 av 20)",
+    "option1": "Vinnie Jones",
+    "option2": "Glenn Strömberg",
+    "option3": "Eric Cantona"
+  },
+  {
+    "question": "Vad heter den Engelska andraligan? (Fråga 17 av 20)",
+    "option1": "Championship",
+    "option2": "La Liga",
+    "option3": "Premier League"
+  },
+  {
+    "question": "Vilket land vann fotbolls EM 1992 (Fråga 18 av 20)",
+    "option1": "Danmark",
+    "option2": "Tyskland",
+    "option3": "Sverige"
+  },
+  {
+    "question": "Vilket land toppar FIFAs landslagranking? (Fråga 19 av 20)",
+    "option1": "Belgien",
+    "option2": "Brasilien",
+    "option3": "Spanien"
+  },
+  {
+    "question": "Vilket land vann fotbolls Vm för damer 2015? (Fråga 20 av 20)",
+    "option1": "USA",
+    "option2": "Japan",
+    "option3": "Tyskland"
+  }
 ]
 }
